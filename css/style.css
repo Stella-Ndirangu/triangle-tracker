@@ -9,10 +9,19 @@ h1{
   text-decoration: underline;
 }
 #submit{
-  background-color: #66cc33;
+  background-color: rgb(80,208,255);
   color: #fff;
   padding: 15px 30px;
   font-size: 18px;
   margin: 4px 4px;
   cursor: pointer;
+}
+
+.draw{
+  margin: auto;
+  width: 0px;
+  height: 200px;
+  border-bottom: solid 360px rgb(80, 208, 255);
+  border-left: solid 300px transparent;
+  border-right: solid 300px transparent;
 }
