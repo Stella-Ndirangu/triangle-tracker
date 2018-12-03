@@ -6,7 +6,10 @@ body{
   text-align: center;
 }
 h1{
+  margin-top: 60px;
   text-decoration: underline;
+  color: #03a9f4;
+  font-weight: bold;
 }
 #submit{
   background-color: rgb(80,208,255);
@@ -18,13 +21,14 @@ h1{
 }
 
 .draw{
-  column-count: 3;
-  column-gap: 40px;
   text-align: center;
+  font-size: 20px;
   display: block;
+  margin-top: 200px;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 100px;
+  column-count: 3;
+  column-gap: 40px;
 }
 
 img{
@@ -32,7 +36,36 @@ img{
   height: 300px;
 }
 
-p{
+#display p{
   font-size: 50px;
-  color: rgb(80,208,255);
+  color: #03a9f4;
+  font-weight: bold;
+}
+.main{
+  margin-top: 80px;
+  font-size: 18px;
+}
+#side1{
+  padding: 10px;
+  margin: 20px;
+}
+#side2{
+  padding: 10px;
+  margin: 20px;
+}
+#side3{
+  padding: 10px;
+  margin: 20px;
+}
+.column3{
+  width: 400px;
+  height: 500px;
+}
+.column2{
+  width: 400px;
+  height: 500px;
+}
+.column1{
+  width: 400px;
+  height: 500px;
 }
