@@ -19,4 +19,4 @@ Important points:
 If you any issues or have questions, you can reach me here: stellaw.ndirangu@gmail.com. Feel free to share or make a contribution to this code.
 ### License
 *MIT License*
-Copyright (c) {year} **Stella Ndirangu**
+Copyright (c) 2018 **Stella Ndirangu**
