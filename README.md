@@ -18,7 +18,7 @@ Triangle Tracker determines whether, given 3 sides, it will make a triangle. It 
 ## Known Bugs
 There are no known bugs.
 
-If you find a bug or would like to request a new function, kindly open an issue [here] (https://github.com/Stella-Ndirangu/triangle-tracker/issues) by including your search/function query and the expected result.
+If you find a bug or would like to request a new function, kindly open an issue [here](https://github.com/Stella-Ndirangu/triangle-tracker/issues) by including your search/function query and the expected result.
 ## Technologies Used
 This project has been created using HTML 5, CSS AND Javscript.
 Important points:
