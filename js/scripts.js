@@ -1,0 +1,2 @@
+var triangle = function(){
+}
