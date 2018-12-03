@@ -18,10 +18,15 @@ h1{
 }
 
 .draw{
-  margin: auto;
-  width: 0px;
-  height: 200px;
-  border-bottom: solid 360px rgb(80, 208, 255);
-  border-left: solid 300px transparent;
-  border-right: solid 300px transparent;
+  column-count: 3;
+  column-gap: 40px;
+  text-align: center;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 300px;
+}
+
+.column1{
+
 }
