@@ -14,12 +14,4 @@ var triangle = function() {
     } else {
         document.getElementById("display").innerHTML = "This is not a triangle!";
       }
-
-//    if (side1 === side2 && side2 === side3 && side1 === side3) {
-//      document.getElementById("display").innerHTML = "This is an Equilateral Triangle";
-//    } else if (side1 === side2 || side2 === side3 || side1 === side3) {
-//      document.getElementById("display").innerHTML = "This is an Isosceles triangle";
-//    } else {
-//      document.getElementById("display").innerHTML = "This is an Scalene triangle";
-//    }
     };
