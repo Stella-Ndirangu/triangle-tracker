@@ -24,10 +24,15 @@ h1{
   display: block;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 img{
   width: 300px;
   height: 300px;
+}
+
+p{
+  font-size: 50px;
+  color: rgb(80,208,255);
 }
