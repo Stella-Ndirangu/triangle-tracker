@@ -1,18 +1,20 @@
-body{
+body {
   background-image: url("../images/triangle-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: inline;
   text-align: center;
 }
-h1{
+
+h1 {
   margin-top: 60px;
   text-decoration: underline;
   color: #03a9f4;
   font-weight: bold;
 }
-#submit{
-  background-color: rgb(80,208,255);
+
+#submit {
+  background-color: rgb(80, 208, 255);
   color: #fff;
   padding: 15px 30px;
   font-size: 18px;
@@ -20,7 +22,7 @@ h1{
   cursor: pointer;
 }
 
-.draw{
+.draw {
   text-align: center;
   font-size: 20px;
   display: block;
@@ -31,41 +33,48 @@ h1{
   column-gap: 40px;
 }
 
-img{
+img {
   width: 300px;
   height: 300px;
 }
 
-.main p{
+.main p {
   color: #03a9f4;
   font-size: 40px;
   font-weight: bold;
 }
-.main{
+
+.main {
   margin-top: 50px;
   font-size: 18px;
 }
-#side1{
+
+#side1 {
   padding: 10px;
   margin: 20px;
 }
-#side2{
+
+#side2 {
   padding: 10px;
   margin: 20px;
 }
-#side3{
+
+#side3 {
   padding: 10px;
   margin: 20px;
 }
-.column3{
+
+.column3 {
   width: 400px;
   height: 00px;
 }
-.column2{
+
+.column2 {
   width: 400px;
   height: 500px;
 }
-.column1{
+
+.column1 {
   width: 400px;
   height: 500px;
 }
