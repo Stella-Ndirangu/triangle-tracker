@@ -6,15 +6,31 @@ The Triangle Tracker determines the type of triangle based on the sides the user
 ## Setup/Installation Requirements
 * Web browser
 ## Specifications
-Triangle Tracker determines whether, given 3 sides, it will make a triangle. It also shows which type of triangle it can make based on the sides inputted.
-* The program has one function called triangle
-*  All user inputted values are changed to Integers to avoid errors 
-*Check whether all values are greater than 0
-* If values are greater than 0, check whether the sum of any two sides of the triangle is equal to or greater than the third remaining side
-* If so then check whether, all sides are equal. This is an Equilateral triangle.
-* Check whether two sides are equal. This is an Isosceles triangle
-* If none of these are met, then it is a Scalene triangle.
-* If the second IF statement fails then it is not a triangle.
+The website
+1. Displays an error message when no values are entered
+* INPUT:""
+* OUTPUT: "Values of a triangle have to be greater than 0"
+
+2. Displays an error message when negative values are entered
+* INPUT: "-5, 7, 9"
+* OUTPUT: "Values of a triangle have to be greater than 0"
+
+3. Checks the condition : if the sum of any two sides of the triangle is equal to or less than the third remaining side
+* INPUT: "3,2,9"
+* OUTPUT: "This is not a triangle!"
+
+4. Checks if all the sides entered are equal
+* INPUT: "10,10,10"
+* OUTPUT: "This is an Equilateral Triangle"
+
+5. Checks if two sides entered are equal
+* INPUT: "10,10,12"
+* OUTPUT: "This is an Isosceles Triangle"
+
+6. Checks if all sides entered are different
+* INPUT: "3,4,5"
+* OUTPUT: "This is an Scalene Triangle"
+
 ## Known Bugs
 There are no known bugs.
 
