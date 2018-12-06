@@ -3,6 +3,12 @@ var triangle = function() {
   var side2 = parseInt(document.getElementById('side2').value);
   var side3 = parseInt(document.getElementById('side3').value);
 
+  var sides = [];
+  sides.push(side1,side2,side3);
+  var side1 = sides[0];
+  var side2 = sides[1];
+  var side3 = sides[2];
+  
   if (side1 > 0 && side2 > 0 && side3 > 0) {
     if (side1 + side2 >= side3 && side1 + side3 >= side2 && side2 + side3 >= side1) {
       if (side1 === side2 && side2 === side3 && side1 === side3) {
